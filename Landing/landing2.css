@@ -1,0 +1,475 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url(hero.png);
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    gap: 100px;
+}
+
+.logo svg{
+    height: 20px;
+    margin-right: 5px;
+    fill: #fff;
+}
+
+button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.btn-navbar .sign-in{
+    background-color: #eb1700;
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.btn-navbar .sign-up{
+    background-color: white;
+    color: #606060;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.heading h1{
+    font-size: 34px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.heading input{
+    padding: 10px;
+    width: 40%;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    margin-bottom: 15px;
+}
+
+.sec-container{
+    margin: 35px 15px;
+}
+
+
+.sec-container .earning{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    margin-left: 250px;
+}
+
+.scoot svg{
+    margin-bottom: 20px;
+}
+
+.scoot h2{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.scoot p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.scoot a{
+    color: red;
+
+}
+
+.earning .merchant{
+    margin: 0 25px;
+}
+
+.merchant svg{
+    margin-bottom: 20px;
+}
+
+.merchant h2{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.merchant p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.merchant a{
+    color: red;
+}
+
+.earning .app{
+    margin: 0 25px;
+
+}
+
+.app svg{
+    margin-bottom: 20px;
+    height: 170px;
+    width: 170px;
+}
+
+.app h2{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.app p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.app a{
+    color: red;
+}
+
+.third-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    margin-top: 50px;
+    background-image: url(grocery.png);
+    background-size: cover;
+    background-color: rgba(30, 30, 30, 0.6);
+    background-blend-mode: color;
+}
+
+.third-con .con-3{
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.con-3 h2{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.con-3 h3{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.con-3 p{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.con-3 .groceries{
+    background-color: #eb1700;
+    color: white;
+    margin-right: 50px;
+}
+
+.middle-con{
+    margin: 50px 0;
+}
+
+.dash{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dash .restaurants img{
+    width: 500px;
+    height: 338px;
+    float: left;
+    margin-right: 25px;
+    margin-left: 15px;
+}
+
+.dash h2{
+    font-size: 35px;
+    margin-bottom: 15px;
+    
+}
+
+.dash h3{
+    font-size: 28px;
+    margin-bottom: 15px;
+   
+}
+
+.dash p{
+    font-size: 20px;
+    margin-bottom: 25px;
+    
+}
+
+.dash a{
+    background-color: #eb1700;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    
+}
+
+.dash .dashpass{
+    clear: left;
+    margin: 15px;
+}
+.dash .dashpass img{
+    width: 500px;
+    height: 338px;
+    float: right;
+} 
+
+.middle-con2{
+    padding: 15px;
+    margin-bottom: 25px;
+    height: 680px;
+}
+
+.middle-con2 h2{
+    text-align: center;
+    font-size: 45px;
+}
+
+.pack-flower{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.pack-flower .package{
+    width: 670px;
+    margin-right: 50px;
+    height: 547px;
+    width: 508px;
+    text-align: center;
+}
+
+.pack-flower .flower{
+    margin-bottom: 50px;
+    margin-right: 25px;
+    padding: 15px;
+    height: 547px;
+    width: 508px;
+    text-align: center;
+}
+
+.pack-flower h2{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.pack-flower p{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.pack-flower a{
+    background-color: #eb1700;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.pack-flower img{
+    width: 500px;
+    height: 338px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bottom-con{
+    margin-top: 35px;
+    padding: 15px;
+}
+
+.bottom-con h2{
+    text-align: center; 
+    font-size: 35px;
+}
+
+.bottom-con .growth{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.dash-paid{
+    margin: 30px;
+}
+
+.dash-paid img{
+    width: 600px;
+    height: 400px;
+    float: right;
+    margin-left: 50px;
+}
+
+.dash-paid h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.dash-paid p{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.dash-paid a{
+    background-color: #eb1700;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.partner img{
+    width: 600px;
+    height: 400px;
+    float: left;
+    margin-right: 50px;
+}
+
+.partner h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.partner p{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.partner a{
+    background-color: #eb1700;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.footer{
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .categories{
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.categories h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.categories .categories-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.categories-list .cat1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.categories-list .cat2{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0.75;
+    gap: 10px;
+}
+
+.categories a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer .help{
+    display: flex;
+    gap: 35px;
+    padding: 10px;
+}
+
+.help .know-us{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.help .help-you{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.help .business{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.help h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.help a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer .last-foot{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.last-foot .service{
+    display: flex;
+    gap: 45px;
+    padding: 10px;
+}
+
+.service a{
+    color: white;
+}
+
+.service .social-media{
+    display: flex;
+    gap: 15px;
+}
